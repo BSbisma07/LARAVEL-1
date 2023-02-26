@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #00FFFF;
+    overflow-x: hidden;
+}
+
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #DC143C;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    color: white;
+}
+
+.header {
+    position: relative;
+    top: 30px;
+}
+
+.slink {
+    margin-top: 40px;
+    color: white;
+}
+
+.slink:hover {
+    color: black;
+}
+
+.dashboard-btn {
+    color: white;
+}
+
+.dashboard-btn:hover {
+    color: black;
+}
+
+.btncrud {
+    width: 80px;
+}
+
+.logout {
+    margin-top: 400px;
+}
+
+.button-logout {
+    color: white;
+}
+
+.button-logout:hover {
+    color: black;
+}
+
+.container {
+    position: relative;
+    border-radius: 13px;
+    top: 80px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #0096FF;
+    padding: 2px;
+    width: 400px;
+    height: 350px;
+}
+
+.container-table {
+    position: relative;
+    top: 80px;
+    left: 210px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.container-dashboard {
+    position: relative;
+    border-radius: 13px;
+    top: 80px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.container .form-group {
+    position: relative;
+    top: 20px;
+}
+
+.container button {
+    position: relative;
+    top: 100px;
+    left: 248px;
+}
+
+.input-text {
+    position: relative;
+    left: 540px;
+    top: 80px;
+}
+
+.container-table img {
+    border-radius: 10px;
+}
+
+.modal-content {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.alert {
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 900px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 340px;
+}
+
+.td1 {
+    display: flex;
+    justify-content: center;
+}
